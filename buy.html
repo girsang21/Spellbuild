@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spellbuild</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</div>
+    <div class="container">
+       <div class="header">
+           <div class="inner_header">
+                <div class="logo_container">
+                    <a href="home.html"><img src="logo.png" alt="" height="70" width="230"></a>
+                </div>
+            <ul class="navigation">
+                <a href="home.html"><li>Home</li></a>
+                <a href="media.html"><li>Media</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="community.html"><li>Community</li></a>
+                <a href="buy.html"><li>Buy</li></a>
+            </ul>
+           </div>
+       </div>
+       <div class="contentBuy">
+            <div class="tableCoin">
+                 <b>Choose your coin</b>
+            </div>
+            <table class="tableBuy">
+                <tr>
+                    <td ><img src="coin1.jpg" alt="" width="230" onclick="openForm()"class="coin"></td>
+                    <td><img src="coin2.jpg" alt="" width="230" height="390"onclick="openForm()"class="coin"></td>
+                    <td><img src="coin3.jpg" alt="" width="230" height="390"onclick="openForm()"class="coin"></td>
+                    <td><img src="coin4.jpg" alt="" width="230" height="390"onclick="openForm()"class="coin"></td>
+                </tr>
+            </table>
+       </div>
+    <div class="popup"id="popupForm">
+      <div class="formPopup" >
+        <img src="close.png" alt="Close" onclick="closeForm()"class="closeBtn">
+        <h2>Fill your identity</h2>
+        <table class="inputForm" >
+            <form action="" method="POST" name="myform" onsubmit="validation(); return false;">
+            <tr>
+                <td align="left">Fullname</td>
+                <td>:</td>
+                <td><input type="text" name="fullname" id="fullnameTxt" placeholder="Fullname" class="textField"></td>
+            </tr>
+            <tr>
+                <td align="left">Email</td>
+                <td>:</td>
+                <td><input type="text" name="email" id="emailTxt" placeholder="Email"class="textField"></td>
+            </tr>
+            <tr>
+                <td align="left">Username</td>
+                <td>:</td>
+                <td><input type="text" name="username" id="usernameTxt" placeholder="Username"class="textField"></td>
+            </tr>
+            <tr>
+                <td align="left">Password</td>
+                <td>:</td>
+                <td><input type="password" name="password" id="passwordTxt"placeholder="Password"class="textField"></td>
+            </tr>
+            <tr>
+                <td align="left">Confirm Password</td>
+                <td>:</td>
+                <td><input type="password" name="copassword" id="rePasswordTxt"placeholder="Confirm Password"class="textField" ></td>
+            </tr>
+            <tr>
+                <td align="left">Gender</td>
+                <td>:</td>
+                <td align="left"><input type="radio" id="male" name="gender" value="male">
+                    <label for="male"class="gender">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female"class="gender">Female</label>
+            </tr>
+            <tr>
+                <td align="left">Quantity</td>
+                <td>:</td>
+                <td align="left">
+                    <select name="quantity" id="" required>
+                        <option value="">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td align="left">Address</td>
+                <td>:</td>
+                <td><textarea name="address" id="addressTxt" cols="30" rows="3"></textarea></td>
+            </tr>
+            <tr><td align="right"><input type="checkbox"name="checkbox" value="1" id="check-box"</td>
+                <td></td>
+                <td colspan="3" align="left"><label for="checkbox"class="agree"> I acceppt the agreement</label></td>
+            </tr>
+        
+        </table>
+        <button type="submit" class="submitbtn" id="submitbtn">Submit</button>
+        <span id="error"></span>
+    </form>
+      </div>
+    </div>
+        <div class="footerFixed">
+            <div class="inner_footerFixed">
+                <hr>
+                Copyrigtht &copy;2020 Spellbuild. Trademarks belong to their respective owners. All rights reserved.
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js">
+
+</script>
+</html>

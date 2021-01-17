@@ -1,0 +1,320 @@
+.container{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: repeat;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-image: url("header.jpg");
+    box-shadow: 0 4px 8px 0 rgba(33, 33, 33, 1) 
+}
+.inner_header{
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-top: 5px;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration: none;    
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 25px;
+}
+.slideshow{
+  width: 100%;
+  position: absolute;
+  padding-top: 0px;
+  background-color: white;
+}
+.mySlides {
+  display: none;
+}
+
+.caption1{
+    margin-left: auto;
+    margin-right: auto;   
+}
+.caption1 b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: crimson;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 24px;
+  position: absolute;
+  bottom: 300px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(33, 33, 33, 0.3);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+img.fade{
+    filter: brightness(50%);
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.contentHome{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    margin-top: 750px;
+}
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: rgba(33, 33, 33, 0.7);
+}
+.table2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: rgba(33, 33, 33, 0.7);
+}
+.footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    opacity: 0.6;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.inner_footer{
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.tableMedia{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableMedia td { 
+    padding: 20px;
+    
+}
+.fanart{
+    background-color:rgba(250, 250, 250,0.9);
+}
+.gameplay{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.subFanart{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+.tableMedia2{
+    
+    font-size: 18px;
+    color: dimgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableMedia2 td{
+    padding: 20px;
+
+}
+.contentAbout{
+    font-size: 18px;
+    
+}
+.features{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.tableFeature{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableFeature td{
+    color: rgba(33, 33, 33, 0.8);
+}
+.tableFeature b{
+    font-size: 30px;
+    color: black;
+}
+.subContentCommunity{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.comTable{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentComm img{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.comment{
+    margin-top: 20px;
+}
+.commentTable{
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(33, 33, 33, 0.8);
+}
+.contentBuy {
+    font-size: 18px;
+}
+.tableCoin{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.tableBuy{
+    margin-left: auto;
+    margin-right: auto;   
+}
+.coin{
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.popup {
+    background-color: rgba(33, 33, 33, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.formPopup{
+    height: 410px;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.inputForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.textField{
+    width: 100%;
+}
+.gender{
+    font-size: 12px;
+}
+.agree{
+    font-size: 12px;
+}
+.closeBtn{
+    height: 50px;
+    width: 50px;
+    margin-top: -1000px;
+    margin-right: -520px;
+    cursor: pointer;
+}
+.submitbtn {
+    background-color: #8ebf42;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.submitbtn:hover{
+    opacity: 1;
+    }
+
+.footerFixed{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    opacity: 0.6;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.inner_footerFixed{
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+span{
+    font-size: 14px;
+    color: red;
+}
